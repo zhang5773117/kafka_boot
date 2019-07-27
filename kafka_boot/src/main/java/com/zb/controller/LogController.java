@@ -18,7 +18,7 @@ import java.util.List;
 @Api(value = "这是一个测试日志的类",description = "这是一个测试日志的类,完成用户的增删改查操作")
 public class LogController {
 
-
+    //我修改了代码
     private static List<User> users = new ArrayList<>();
     @Autowired
     private KafkaTemplate kafkaTemplate;
