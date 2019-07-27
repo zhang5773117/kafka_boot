@@ -19,6 +19,7 @@ import java.util.List;
 public class LogController {
 
     //我修改了代码
+    //在网上执行修改代码
     private static List<User> users = new ArrayList<>();
     @Autowired
     private KafkaTemplate kafkaTemplate;
